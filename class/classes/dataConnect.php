@@ -11,7 +11,6 @@ class createConnection //create a class for make connection
     var $password="";
     var $database="onetoone";
     var $myconn;
-    // var $myconnector; just checking the power of GIT
 
     function connectToDatabase() // create a function for connect database
     {
