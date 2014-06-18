@@ -11,6 +11,8 @@ class createConnection //create a class for make connection
     var $password="";
     var $database="onetoone";
     var $myconn;
+    
+    var $againtest; // this will do another change in server
 
     function connectToDatabase() // create a function for connect database
     {
